@@ -1,0 +1,11 @@
+<tr>
+    <th class="mark" colspan="1" scope="row" ><h1>totals/custom_total.html</h1></th>
+</tr>
+<!-- ko if: isDisplayed() -->
+<tr class="totals custom_total excl">
+    <th class="mark" colspan="1" scope="row" data-bind="text: title"></th>
+    <td class="amount">
+        <span class="price" data-bind="text: getValue()"></span>
+    </td>
+</tr>
+<!-- /ko -->
